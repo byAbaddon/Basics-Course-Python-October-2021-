@@ -1,9 +1,10 @@
 from math import ceil
 
-move, duration, time_out = [input() if x < 1 else int(input()) for x in range(3)]
+move, duration, time_out =  input(), int(input()), int(input())
 
-lunch = time_out / 8 /
-relax = time_out / 4 /
+
+lunch = time_out / 8
+relax = time_out / 4
 total_time = time_out - lunch - relax
 
 if total_time >= duration:
