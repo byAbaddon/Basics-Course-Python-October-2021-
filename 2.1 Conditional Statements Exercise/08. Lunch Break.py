@@ -1,6 +1,6 @@
 from math import ceil
 
-move, duration, time_out =  input(), int(input()), int(input())
+move, duration, time_out = input(), int(input()), int(input())
 
 
 lunch = time_out / 8
