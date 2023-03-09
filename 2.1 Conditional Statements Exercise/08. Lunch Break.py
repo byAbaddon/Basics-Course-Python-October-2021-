@@ -12,6 +12,7 @@ if total_time >= duration:
 else:
     print(f"You don't have enough time to watch {move}, you need {ceil(duration - total_time)} more minutes.")
 
+    
 '''
 Game of Thrones
 60
