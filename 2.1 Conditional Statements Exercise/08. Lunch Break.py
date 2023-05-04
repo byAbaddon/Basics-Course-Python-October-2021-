@@ -1,11 +1,10 @@
 from math import ceil
 
-move, duration, time_out = input(), int(input()), int(input())
+move, duration, breack = input(), int(input()), int(input())
 
-
-lunch = time_out / 8
-relax = time_out / 4
-total_time = time_out - lunch - relax
+lunch = breack / 8
+relax = breack / 4
+total_time = breack - lunch - relax
 
 if total_time >= duration:
     print(f'You have enough time to watch {move} and left with {ceil(total_time - duration)} minutes free time.')
